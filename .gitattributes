@@ -1,0 +1,8 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=auto
+
+raw/ipv4_win_ansi/hosts text eol=crlf
+raw/ipv6_win_ansi/hosts text eol=crlf
+pyhosts/setup_win.bat text eol=crlf
+
+hosts text eol=lf

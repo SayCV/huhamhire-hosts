@@ -34,16 +34,19 @@
 #
 # Special thanks to: smarthosts, hostsx, ipv6-hosts, mwsl, yoyo, 
 #                    mvps, ATGFW and hpHosts
+
+
 #
 # HostsVer Timestamp : 1359561600
 # Creation Timestamp : 1359561600
 #
+
+
 ######## Localhost ########
-127.0.0.1   localhost
-::1         localhost
 
 #Windows
 127.0.0.1 localhost.localdomain localhost
+::1       localhost.localdomain localhost
 
 #Linux
 127.0.0.1   #Replace Your Device Name Here!
@@ -56,11 +59,12 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 
 #Mac OS X
-fe80::1%lo0	localhost
+fe80::1 lo0	localhost
 255.255.255.255	broadcasthost
-127.0.0.1 advertising.apple.com
 
 ######## Localhost END ########
+
+
 # region activation
 ######## IPv4 HOSTS ########
 # 屏蔽Adobe激活服务器：
@@ -91,6 +95,8 @@ fe80::1%lo0	localhost
 127.0.0.1 update.parallels.com
 
 # endregion
+
+
 # region google
 
 ######  Google Services from Beijing, China ######
@@ -602,6 +608,8 @@ fe80::1%lo0	localhost
 74.125.128.141 www.panoramio.com
 
 # endregion
+
+
 # region youtube
 
 #YouTube
@@ -1227,6 +1235,8 @@ fe80::1%lo0	localhost
 173.194.38.166 v24.lscache8.c.youtube.com
 
 # endregion
+
+
 # region facebook
 
 #facebook
@@ -1287,6 +1297,8 @@ fe80::1%lo0	localhost
 69.171.246.18 channel-testing-ecmp-05-ash3.facebook.com
 
 # endregion
+
+
 # region twitter
 
 #Twitter
@@ -1319,6 +1331,8 @@ fe80::1%lo0	localhost
 199.59.149.210 t.co
 
 # endregion
+
+
 # region wikipedia
 
 #Wikipedia
@@ -1372,6 +1386,8 @@ fe80::1%lo0	localhost
 208.80.152.201 www.mediawiki.org
 
 # endregion
+
+
 # region other
 
 #Huhamhire HOSTS
@@ -1569,6 +1585,8 @@ fe80::1%lo0	localhost
 ######## IPv4 HOSTS END ########
 
 # endregion
+
+
 # region apple
 
 #Apple Services
@@ -3598,6 +3616,8 @@ fe80::1%lo0	localhost
 
 # endregion
 
+
+
 # region adblock
 
 #######################################
@@ -4879,7 +4899,7 @@ fe80::1%lo0	localhost
 127.0.0.1 spd.netconversions.com
 127.0.0.1 madserver.net
 127.0.0.1 ads.msn.com.nsatc.net
-@门户和常用网站/Yahoo!
+#门户和常用网站/Yahoo!
 #Adinterax
 127.0.0.1 adinterax.com
 127.0.0.1 mi.adinterax.com
@@ -5201,7 +5221,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.rightmedia.com
 127.0.0.1 www.yfdmedia.com
 127.0.0.1 ym.bannerconnect.net
-@HostsX 海外站点广告
+#HostsX 海外站点广告
 #BNet
 127.0.0.1 bwp.bnet.com
 127.0.0.1 mads.bnet.com
@@ -5454,8 +5474,8 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.miniclip.com
 127.0.0.1 ads.ttv.com.tw
 127.0.0.1 drd.hauchi.com.tw
-@HostsX 国内站点广告
-@HostsX 国内站点广告/社区类网站
+#HostsX 国内站点广告
+#HostsX 国内站点广告/社区类网站
 #天涯社区
 127.0.0.1 801.tianya.cn
 127.0.0.1 803.tianya.cn
@@ -5551,7 +5571,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pro.blogbus.com
 #51.com
 127.0.0.1 v3.apic.51.com
-@HostsX 国内站点广告/小说类网站
+#HostsX 国内站点广告/小说类网站
 #起点中文网
 127.0.0.1 qidian.adsame.com
 127.0.0.1 uedas.qidian.com
@@ -5575,7 +5595,7 @@ fe80::1%lo0	localhost
 127.0.0.1 stat.readnovel.com
 #虚拟天空
 127.0.0.1 b.xntk.com
-@HostsX 国内站点广告/新闻类网站
+#HostsX 国内站点广告/新闻类网站
 #新华网
 127.0.0.1 adcenter.xinhuanet.com
 127.0.0.1 embed.xinhuanet.com
@@ -5642,7 +5662,7 @@ fe80::1%lo0	localhost
 127.0.0.1 huanqiu.datamaster.com.cn
 #珠海视窗
 127.0.0.1 poo.zhuhai.gd.cn
-@HostsX 国内站点广告/游戏类网站
+#HostsX 国内站点广告/游戏类网站
 #电玩巴士
 127.0.0.1 bill.tgbus.com
 127.0.0.1 g.tgbus.com
@@ -5679,7 +5699,7 @@ fe80::1%lo0	localhost
 127.0.0.1 aszt1.my4399.com
 127.0.0.1 stat.api.4399.com
 127.0.0.1 uimg.my4399.com
-@HostsX 国内站点广告/财经类网站
+#HostsX 国内站点广告/财经类网站
 #和讯财经
 127.0.0.1 ads.hexun.com
 127.0.0.1 analytics.tool.hexun.com
@@ -5712,7 +5732,7 @@ fe80::1%lo0	localhost
 127.0.0.1 xc.macd.cn
 #中国资本证券网
 127.0.0.1 ads.ccstock.cn
-@HostsX 国内站点广告/摄影类网站
+#HostsX 国内站点广告/摄影类网站
 #蜂鸟网
 127.0.0.1 pic.fengniao.com
 127.0.0.1 stat.fengniao.com
@@ -5723,13 +5743,13 @@ fe80::1%lo0	localhost
 127.0.0.1 a-m-s.poco.cn
 #新摄影
 127.0.0.1 util.nphoto.net
-@HostsX 国内站点广告/购物类网站
+#HostsX 国内站点广告/购物类网站
 #梦芭莎
 127.0.0.1 click.moonbasa.com
 127.0.0.1 static.moonbasa.com
 #家电联盟
 127.0.0.1 pic.jdunion.com
-@HostsX 国内站点广告/IT类网站
+#HostsX 国内站点广告/IT类网站
 #电脑之家
 127.0.0.1 ad.adver.com.tw
 127.0.0.1 ad.pchome.net
@@ -5833,7 +5853,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ccc.xdowns.com
 #Crsky
 127.0.0.1 images.crsky.com
-@HostsX 国内站点广告/汽车类网站
+#HostsX 国内站点广告/汽车类网站
 #车市网
 127.0.0.1 analyze.cheshi.com
 127.0.0.1 click.cheshi.com
@@ -5859,7 +5879,7 @@ fe80::1%lo0	localhost
 127.0.0.1 count.pcauto.com.cn
 #中国汽车网
 127.0.0.1 chinacarsafp.allyes.com
-@HostsX 国内站点广告/视频类网站
+#HostsX 国内站点广告/视频类网站
 #CNTV
 127.0.0.1 a.cctv.com
 127.0.0.1 a.cntv.cn
@@ -5996,7 +6016,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.dj527.com
 127.0.0.1 sy.0575dp.com
 127.0.0.1 www.0575dp.com
-@HostsX 国内站点广告/信息服务类网站
+#HostsX 国内站点广告/信息服务类网站
 #搜房
 127.0.0.1 clickn.soufun.com
 127.0.0.1 count.soufun.com
@@ -6081,7 +6101,7 @@ fe80::1%lo0	localhost
 127.0.0.1 images.yidaba.com
 127.0.0.1 images.cms.yidaba.com
 127.0.0.1 static.yidaba.com
-@Windows 软件广告过滤
+#Windows 软件广告过滤
 #360Safe
 127.0.0.1 inst.360safe.com
 127.0.0.1 pdown.stat.360safe.com
@@ -6405,7 +6425,7 @@ fe80::1%lo0	localhost
 #Yunduan
 127.0.0.1 tj.yunduan.cn
 127.0.0.1 update.yunduan.cn
-@Windows 软件验证屏蔽
+#Windows 软件验证屏蔽
 #Game Assassin's Creed
 127.0.0.1 onlineconfigservice.ubi.com
 127.0.0.1 orbitservice.ubi.com
@@ -6568,7 +6588,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ps2.zonelabs.com
 127.0.0.1 register.zonelabs.com
 127.0.0.1 update.zonelabs.com
-@HostsX 国外广告平台
+#HostsX 国外广告平台
 #247realmedia
 127.0.0.1 accuweathercollect.247realmedia.com
 127.0.0.1 adv.247realmedia.com
@@ -11690,7 +11710,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.linkworth.com
 127.0.0.1 ox-d.majorgeeks.com
 127.0.0.1 ox-i.majorgeeks.com
-@HostsX 国内广告联盟
+#HostsX 国内广告联盟
 #0252
 127.0.0.1 js.0252.com
 127.0.0.1 jump.0252.com
@@ -12762,7 +12782,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.zhubajie.com
 127.0.0.1 list.zhubajie.com
 127.0.0.1 un.zhubajie.com
-@Mobile 手机广告平台
+#Mobile 手机广告平台
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -13248,7 +13268,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.stickylogic.com
 127.0.0.1 www.wqmobile.com
 127.0.0.1 pixel-hk.pixelinteractivemedia.com
-@HostsX 统计跟踪屏蔽
+#HostsX 统计跟踪屏蔽
 #51La
 127.0.0.1 img.users.51.la
 127.0.0.1 js.users.51.la
@@ -13441,7 +13461,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.referer.cn
 127.0.0.1 www.zzcount.com
 127.0.0.1 zjomo2.app9.hubspot.com
-@HostsX 防止网络劫持
+#HostsX 防止网络劫持
 #域名劫持
 127.0.0.1 ss.cnnic.cn
 #运营商劫持
@@ -13483,7 +13503,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.xunkoo.com
 127.0.0.1 ads.iisdoor.com
 127.0.0.1 pv.bbapp.net
-@HostsX 可疑病毒拦截
+#HostsX 可疑病毒拦截
 #钓鱼诈骗
 127.0.0.1 98712.com
 127.0.0.1 t.98712.com
@@ -14003,7 +14023,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.winscp.cc
 127.0.0.1 www.sshsecure.com
 127.0.0.1 l.ip-163.com
-@HostsX 恶意弹窗屏蔽
+#HostsX 恶意弹窗屏蔽
 #签名弹窗
 127.0.0.1 code.2010qianming.com
 127.0.0.1 code.52qiangming.com
@@ -14724,15 +14744,17 @@ fe80::1%lo0	localhost
 127.0.0.1 pic.tameili.net
 
 ######## HostsX END ########
-***************************************
-恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2012.9.17
----------------------------------------
-注意：115.47.219.95为MWSL的拦截警示页面
-警告：不得将此数据用于违法犯罪行为！
----------------------------------------
-All Rights Reserved 2007-2012
-***************************************
+
+
+# ***************************************
+# 恶意网站实验室(MWSL)
+# 恶意网站HOSTS屏蔽文件-2012.9.17
+# ---------------------------------------
+# 注意：115.47.219.95为MWSL的拦截警示页面
+# 警告：不得将此数据用于违法犯罪行为！
+# ---------------------------------------
+# All Rights Reserved 2007-2012
+# ***************************************
 115.47.219.95 c.bbslc.com
 115.47.219.95 www.baiduduyou5.cn
 115.47.219.95 baiduduyou5.cn
@@ -31239,6 +31261,8 @@ All Rights Reserved 2007-2012
 115.47.219.95 www.bettercopartner.com
 115.47.219.95 dgal.cdwzt.com
 115.47.219.95 www.yihuajixie.com
+
+
 # Ad server list for use with hosts files to block ads
 #
 # For more information about this list, see: http://pgl.yoyo.org/adservers/
@@ -33592,38 +33616,9 @@ All Rights Reserved 2007-2012
 127.0.0.1 searchportal.information.com
 127.0.0.1 searchramp.com
 127.0.0.1 secure.webconnect.net
-
-
-
-
-
-
-
-
 127.0.0.1 servedbyopenx.com
-
 127.0.0.1 service1.adten.de
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 127.0.0.1 shorttail.net
-
-
-
-
 127.0.0.1 sitebrand.geeks.com
 127.0.0.1 sitemerkezi.net
 127.0.0.1 sitemeter.com
@@ -34011,6 +34006,8 @@ All Rights Reserved 2007-2012
 127.0.0.1 zeusclicks.com
 127.0.0.1 zintext.com
 127.0.0.1 zmedia.com
+
+
 # This MVPS HOSTS file is a free download from:            #
 # http://winhelp2002.mvps.org/hosts.htm                    #
 #                                                          #
@@ -50108,4 +50105,6 @@ All Rights Reserved 2007-2012
 127.0.0.1  www.winadiscount.com #[Dr.Web.Adware.Xbarre]
 127.0.0.1  www.winaproduct.com
 # [end of entries generated by WinHelp2002]
+
+
 # endregion
