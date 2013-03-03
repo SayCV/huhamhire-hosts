@@ -37,8 +37,8 @@
 
 
 #
-# HostsVer Timestamp : 1359561600
-# Creation Timestamp : 1359561600
+# HostsVer Timestamp : 1362283200
+# Creation Timestamp : 1362283200
 #
 
 
@@ -59,8 +59,10 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 
 #Mac OS X
-fe80::1 lo0	localhost
-255.255.255.255	broadcasthost
+127.0.0.1   localhost
+255.255.255.255   broadcasthost
+::1         localhost 
+fe80::1%lo0   localhost
 
 ######## Localhost END ########
 
@@ -605,7 +607,7 @@ fe80::1 lo0	localhost
 203.208.46.206 plus.url.google.com
 203.208.46.206 plusone.google.com
 
-74.125.128.141 www.panoramio.com
+173.194.64.141 www.panoramio.com
 
 # endregion
 
@@ -1252,7 +1254,7 @@ fe80::1 lo0	localhost
 69.63.188.59 secure.facebook.com 
 69.171.237.24 zh-cn.facebook.com 
 69.171.229.25 login.facebook.com 
-69.171.224.35 m.facebook.com 
+69.171.237.41 m.facebook.com 
 184.106.71.238 messages-facebook.com
 69.171.237.33 attachments.facebook.com
 66.220.147.90 touch.facebook.com 
@@ -1393,8 +1395,11 @@ fe80::1 lo0	localhost
 #Huhamhire HOSTS
 204.197.252.124 hosts.huhamhire.com
 
-#github
+#GITHUB
 207.97.227.239 github.com
+207.97.227.252 nodeload.github.com
+207.97.227.243 raw.github.com
+204.232.175.78 documentcloud.github.com
 
 #Dropbox
 199.47.217.179 dropbox.com
